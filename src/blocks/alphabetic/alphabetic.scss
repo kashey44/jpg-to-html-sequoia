@@ -1,0 +1,17 @@
+.alphabetic{
+    h3{
+      color: #fff;
+      font-weight: 100;
+    }
+	background: url('/img/bg-arrow-gray.jpg') no-repeat top center #246d90;
+	a{
+	  font-size: 14px;
+	  text-decoration: underline;
+	  &:hover{
+	    text-decoration: none;
+	  }
+	  @include media-breakpoint-down(sm) {
+	    margin-top: 10px
+	  }
+	}
+}

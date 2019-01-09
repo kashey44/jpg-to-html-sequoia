@@ -1,0 +1,147 @@
+.front {
+  background: url('/img/bg-arrow.jpg') no-repeat top center;
+  /* Пример медиа-запроса. Подробнее здесь: https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints */
+
+  @include media-breakpoint-down(md) {
+//    min-height: 0;
+  }
+  
+  &__content {
+    
+  }
+
+  &__lastNews{
+    &--header{
+      text-align: center;
+      padding: 18px 0;
+      background-color: #136187;
+      border-radius: 5px 5px 0 0 ;
+      h6{
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 18px;
+        margin-bottom: 5px;
+        color: #fff;
+      }
+    }
+    &--content{
+      padding: 5px;
+      margin-bottom: 30px;
+      a{
+        color: #0369a9;
+        &:hover{
+          color: #fec111;
+        }
+        span{
+          padding: 10px 0 0 12px;
+          font-size: 16px;
+          line-height: 16px;
+        }
+      }
+      hr{
+        margin: 5px 0;
+        color: #b0b0b0;
+        background-color: #b0b0b0;
+      }
+      button{
+        background: #136187;
+        color: #fff;
+        padding: 3px 20px;
+        border-radius: 2px;
+        font-size: 12px;
+        text-transform: uppercase;
+        &:hover{
+          color: #fff;
+          background-color: #dc9e2d;
+        }
+      }
+    }
+    
+    &--date{
+      font-size: 12px;
+      color: #bcbcbc;
+      padding-top: 10px;
+    }
+    &--shortText{
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+
+  &__form--header{
+    background-color: #dc9e2d;
+    border-radius: 7px 7px 0 0;
+    border: 1px solid #d4d4d4;
+    border-bottom: 0;
+    color: #fff;
+    padding: 10px 0px;
+    h6{
+      font-weight: 400;
+      letter-spacing: 1px;
+      line-height: 18px;
+      margin-bottom: 5px;
+    }
+    p{
+      color: #fff;
+      font-size: 14px;
+      line-height: 14px;
+      margin-bottom: 0;
+    }
+  }
+  &__form--content{
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #d4d4d4;
+    border-top: 0;
+  }
+  &__newsBlock{    
+    h4{
+      text-align: center;      
+    }
+    &--item{
+      background-color: #f3f3f3;
+      border: 1px solid #d4d4d4;      
+      border-radius: 5px;
+      margin-bottom: 20px;
+      a{
+        color: #0369a9;
+        h5{
+          line-height: 11px;
+        }
+        &:hover{
+          color: #fec111;
+        }
+      }
+      span{
+        font-size: 12px;
+        color: #bcbcbc;
+        padding-top: 10px;
+      }
+      hr{
+        margin: 5px 0;
+        color: #b0b0b0;
+        background-color: #b0b0b0;
+      }
+      p{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 8px;
+      }
+      button{
+        background: #136187;
+        color: #fff;
+        padding: 3px 20px;
+        border-radius: 2px;
+        font-size: 12px;
+        text-transform: uppercase;
+        &:hover{
+          color: #fff;
+          background-color: #dc9e2d;
+        }
+      }
+    }
+  }
+  &__dscr {
+    
+  }
+}

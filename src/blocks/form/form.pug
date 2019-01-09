@@ -1,0 +1,10 @@
+mixin form(modifier)
+    form.form.d-flex.flex-column.justify-content-between.text-center(name="askQuestion")
+      input.input(type="text",placeholder="Ваше имя...")
+      input.input(type="text",placeholder="Ваш телефон...")
+      input(type="text",placeholder="Название Вашего вопроса...")
+      textarea.input.input--textarea(placeholder="Текст Вашего вопроса", rows="7")
+      label Например: Недавно оказал посредническую услугу как физическое лицо. Но все пошло не так. Я пытался вернуть свои деньги, но меня обвинили в мошенничестве, и теперь грозят подать иск в суди или в прокуратуру.</br>Как быть в данной ситуации?      
+      .d-flex.justify-content-center
+        button.ask ЗАДАТЬ ВОПРОС
+        button.look СМОТРЕТЬ ОТВЕТ

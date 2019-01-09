@@ -1,0 +1,29 @@
+.form {
+  input, textarea{
+    font-size: 16px;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+  }
+  label{
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    padding: 10px 20px;
+  }
+  button{
+    background: #cc9d3b;
+    padding: 10px 40px 10px 60px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+    &.ask{
+      background: url('/img/ask.jpg') no-repeat #cc9d3b 15px 6px;
+    }
+    &.look{
+      background: url('/img/look.jpg') no-repeat #cc9d3b 15px 6px;
+    }
+  }
+}

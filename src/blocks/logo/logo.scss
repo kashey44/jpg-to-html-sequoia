@@ -1,0 +1,23 @@
+.logo {
+  color: #fff;
+  display: block;
+  background: url('/img/logo.jpg') no-repeat;
+  min-width: 90px;
+  min-height: 86px;
+  padding-left: 100px;
+  margin-left: 25px;
+    h2{
+      color: #fec111;
+      font-size: 35px;
+      line-height: 1.7;
+    }
+    span{
+      font-size: 18px;
+      line-height: 20px;
+      padding-left: 5px;
+    }
+    &:hover{
+      color: #fec111;
+    }
+
+}

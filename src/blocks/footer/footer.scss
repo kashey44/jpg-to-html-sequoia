@@ -1,0 +1,44 @@
+.footer {
+  padding-top: 20px;
+  border-bottom: 10px solid #dc9e2d;
+  &__askBlock{    
+    border-radius: 10px 10px 0 0;
+    background: url('/img/footer__ask--ico.jpg') no-repeat 10px 50% #dc9e2d;
+    h3{
+      font-size: 22px;
+      margin: 0;
+      padding-left: 10px;
+      line-height: 60px;
+      font-weight: 400;     
+    }
+    @include media-breakpoint-down(sm) {
+      
+      font-size: 110%;
+      h3{
+        padding-left: 10px;
+      }
+    }
+    @include media-breakpoint-down(xs) {
+      font-size: 100%;
+    }
+  }
+  &__content {
+    
+  }
+  
+  &__top {
+    
+  }
+  
+  &__sitemap {
+    
+  }
+  
+  &__link {
+    
+  }
+  
+  &__copyright {
+    
+  }
+}
